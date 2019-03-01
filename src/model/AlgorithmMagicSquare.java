@@ -62,15 +62,7 @@ public class AlgorithmMagicSquare{
 		magicSquare = new int[size][size]; 
 	}
 
-	/*
-	 * This method allows know if the size is par or odd for start the fill in the magic square because if the matrix 
-	 * this not odd there will not be a middle for begin the fill of the magic square.
-	 */
-	public boolean isImpar() throws ParException {
-		boolean flag = false;
-	    
-		return flag;
-	}
+	
 	/*
 	 * This method allows fill the attribute magicSquare
 	 * <B>pre:</b>magicSquare <!= null
